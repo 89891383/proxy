@@ -465,7 +465,7 @@ createServer({
     ],
     keywordBlacklist: [".mpd", ".m4v", ".ts"],// 阻断的关键字
     originBlacklist: [],// 阻断的名单
-    originWhitelist: ["tv-iptv.bid", "nowciownia-tv.iptv.bid" "https://tv-iptv.bid/", "https://nowciownia.tv-iptv.bid/"],// 如果不为空，只允许白名单
+    originWhitelist: ["tv-iptv.bid", "nowciownia-tv.iptv.bid" "https://tv-iptv.bid/", "https://nowciownia.tv-iptv.bid/", "strimki.top", "https://strimki.top"],// 如果不为空，只允许白名单
     redirectSameOrigin: true,
     // http-proxy 组件选项配置
     httpProxyOptions: {
